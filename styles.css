@@ -99,6 +99,19 @@ body {
     .context h1 {
         font-size: 10vw;
     }
+
+    .about-section, .experience-section, .contact-section, .skills-section, .github-container {
+        padding: 30px; /* Adjusted padding for smaller screens */
+    }
+
+    .skills-section h2 {
+        margin-bottom: 20px; /* Increased margin bottom for "Skills" heading */
+        font-size: 20px; /* Decreased font size for smaller screens */
+    }
+
+    .skills-section img {
+        margin: 10px; /* Decreased margin around images in the skills section */
+    }
 }
 
 @media (max-width: 320px) {
@@ -140,8 +153,6 @@ body {
     }
 }
 
-
-
 .about-section, .experience-section, .contact-section, .skills-section, .github-container {
     background-color: white;
     padding: 50px;
@@ -149,17 +160,20 @@ body {
     margin-bottom: 20px; /* Added margin-bottom for separation */
 }
 
-
 .about-section h2, .contact-section h2, .experience-section h2, .github-container h2 {
     margin-bottom: 20px;
     font-size: 30px;
     color: #4e54c8;
 }
 
-.skills-section h2{
-    margin-bottom: -20px;
+.skills-section h2 {
+    margin-bottom: 20px; /* Increased margin bottom for "Skills" heading */
     font-size: 24px;
     color: #4e54c8;
+}
+
+.skills-section img {
+    margin: 20px; /* Increased margin around images in the skills section */
 }
 
 .experience-section h3 {
@@ -181,8 +195,4 @@ body {
 #contact-img {
     max-width: 100%;
     height: auto;
-}
-
-.skills-section img {
-    margin: 10px; /* Adjusted margin for spacing */
 }
